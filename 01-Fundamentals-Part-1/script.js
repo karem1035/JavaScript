@@ -1,3 +1,4 @@
+/*
 // LECTURE: Values and Variables
 // 1. Declare variables called 'country', 'continent' and 'population' and
 // assign their values according to your own country (population in millions)
@@ -23,14 +24,13 @@ let language;
 console.log(isIsland);
 console.log(language);
 
-/*
 LECTURE: let, const and var
 1. Set the value of 'language' to the language spoken where you live (some
 countries have multiple languages, but just choose one)
 2. Think about which variables should be const variables (which values will never
 change, and which might change?). Then, change these variables to const.
 3. Try to change one of the changed variables now, and observe what happens
-*/
+
 
 language = 'English';
 language = 'Arabic';
@@ -48,7 +48,7 @@ have less people than the average country?
 5. Based on the variables you created, create a new variable 'description'
 which contains a string with this format: 'Portugal is in Europe, and its 11 million
 people speak portuguese'
-*/
+
 
 let halfPopulation = population / 2;
 console.log(halfPopulation);
@@ -56,3 +56,19 @@ console.log(population + 1);
 console.log(population > 33);
 let description = 'Egypt is in Africa, and its 130 million people speak Arabic';
 console.log(description);
+
+*/
+
+/* Write your code below. Good luck! 🙂 */
+//  Body Mass Index formula: BMI = mass / (height * height) (mass in kg and height in meters).
+let massMark = 78;
+let heightMark = 1.69;
+
+let massJohn = 92;
+let heightJohn = 1.95;
+
+let BMIMark = 78 / (1.69 * 1.69);
+let BMIJohn = 92 / (1.95 * 1.95);
+
+console.log(BMIMark);
+console.log(BMIJohn);
