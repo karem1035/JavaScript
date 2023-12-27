@@ -5,7 +5,7 @@
 
 const myCountry = 'Egypt';
 const continent = 'Africa';
-const population = '130 Millions';
+const population = 130000000;
 console.log(myCountry);
 console.log(continent);
 console.log(population);
@@ -35,3 +35,24 @@ change, and which might change?). Then, change these variables to const.
 language = 'English';
 language = 'Arabic';
 console.log(language);
+
+/*
+LECTURE: Basic Operators
+1. If your country split in half, and each half would contain half the population,
+then how many people would live in each half?
+2. Increase the population of your country by 1 and log the result to the console
+3. Finland has a population of 6 million. Does your country have more people than
+Finland?
+4. The average population of a country is 33 million people. Does your country
+have less people than the average country?
+5. Based on the variables you created, create a new variable 'description'
+which contains a string with this format: 'Portugal is in Europe, and its 11 million
+people speak portuguese'
+*/
+
+let halfPopulation = population / 2;
+console.log(halfPopulation);
+console.log(population + 1);
+console.log(population > 33);
+let description = 'Egypt is in Africa, and its 130 million people speak Arabic';
+console.log(description);
