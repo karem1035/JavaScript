@@ -57,9 +57,8 @@ console.log(population > 33);
 let description = 'Egypt is in Africa, and its 130 million people speak Arabic';
 console.log(description);
 
-*/
 
-/* Write your code below. Good luck! 🙂 */
+ Write your code below. Good luck! 🙂 
 //  Body Mass Index formula: BMI = mass / (height * height) (mass in kg and height in meters).
 let massMark = 78;
 let heightMark = 1.69;
@@ -72,3 +71,52 @@ let BMIJohn = 92 / (1.95 * 1.95);
 
 console.log(BMIMark);
 console.log(BMIJohn);
+
+
+
+let scoreDolphins = (97 + 112 + 101) / 3;
+let scoreKoalas = (109 + 95 + 106) / 3;
+
+if (scoreDolphins > scoreKoalas) {
+	if (scoreDolphins > 100)
+	console.log(`Dolphins win the trophy ${scoreDolphins}`);
+else console.log(`Dolphins has heigher average ${scoreDolphins}`);
+} else if (scoreKoalas > scoreDolphins) {
+	if (scoreKoalas > 100) console.log(`Koalas win the trophy ${scoreKoalas}`);
+	else console.log(`Koalas has heigher average ${scoreKoalas}`);
+} else {
+	if (scoreKoalas > 100)
+	console.log(`Both win the trophy average: ${scoreKoalas}`);
+else
+console.log(`Draw but no team wins (score < 100) average: ${scoreKoalas}`);
+}
+
+
+let name = 'karem';
+
+switch (name) {
+	case 'ahmed':
+		console.log('Not a G');
+		break;
+		case 'karem':
+			console.log('A real G 🎓');
+		}
+		
+		let day = 'monday';
+		
+		if (day === 'monday') {
+			console.log('Plan course structure');
+			console.log('Go to coding meetup');
+		} else if (day === 'tuesday') {
+			console.log('Prepare theory videos');
+		} else if (day === 'wednesday' || day == 'thursday') {
+			console.log('Write code examples');
+		} else if (day === 'friday') {
+			console.log('Record videos');
+		} else if (day === 'saturday' || day === 'sunday') {
+			console.log('Enjoy the weekend :D');
+		} else {
+			console.log('Not a valid day');
+		}
+		
+		*/
